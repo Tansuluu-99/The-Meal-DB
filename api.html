@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./api.css">
+</head>
+<body>
+    <div class="wrapper">
+    <section class="api">
+        <div class="informations">
+            <div  class="info actives">
+                <img src="https://www.themealdb.com/images/icons/thumb_up.gif" alt="">
+                <h2>Free Recipe API Support</h2>
+            </div>
+            <p>The API and site will always remain free at point of access. <br>
+                If you love our service and want extra features you can sign up as a Paypal supporter. <br>
+                You can cancel anytime. This allows us to pay for the servers and bandwidth and develop new features.</p>
+        </div>
+        <div class="informations">
+            <div  class="info">
+                <img src="https://www.themealdb.com/images/icons/api.png" alt="">
+                <h2>Test API Keys</h2>
+            </div>
+            <p>You can use the test API key "1" during development of your app or for educational use (see test links below). <br>
+                However you  must become a supporter if releasing publicly on an appstore. <br>
+                All data is returned in JSON format. We recomend Json view <br> chrome extension to view the data in your web browser.</p>
+        </div>
+        <div class="informations">
+            <div  class="info active">
+                <img src="https://www.themealdb.com/images/icons/up_arrow.png" alt="">
+                <h2>API Production Key Upgrade</h2>
+            </div>
+            <p>All supporters have access to the beta version of the API which allows mutiple ingredient filters. <br>
+                You also get access to adding your own meals and images. You can also list the full database rather than limited to 100 items. <br>
+                Please sign up on Paypal and we will email you the upgrade.</p>
+        </div>
+        <div class="informations">
+            <div  class="info activ">
+                <img src="https://www.themealdb.com/images/icons/email.png" alt="">
+                <h2>Contact</h2>
+            </div>
+            <p>Email: thedatadb@gmail.com (please state if you are a Paypal Supporter)</p>
+        </div>
+        <div class="information mains">
+            <img src="https://www.themealdb.com/images/icons/code.png" alt="">
+            <h4>API Methods using the developer test key '1' as the API key</h4>
+        </div>
+        <div class="information biss">
+            <h3 class="hh">Search meal by name</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/search.php?s=Arrabiata</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">List all meals by first letter</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/search.php?f=a</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Lookup full meal details by id</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/lookup.php?i=52772</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Lookup a selection of 10 random meals (only available to Paypal supporters)</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/randomselection.php</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">List all meal categories</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/categories.php</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Latest Meals (only available to Paypal supporters)</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/latest.php</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">List all Categories, Area, Ingredients</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/list.php?c=list</h4>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/list.php?a=list</h4>
+            <!-- <h4 class="h">www.themealdb.com/api/json/v1/1/list.php?i=list</h4> -->
+        </div>
+        <div class="information">
+            <h3 class="hh">Filter by main ingredient</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Filter by multi-ingredient (only available to Paypal supporters)</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast,garlic,salt</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Filter by Category</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/filter.php?c=Seafood</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Filter by Area</h3>
+            <h4 class="h">www.themealdb.com/api/json/v1/1/filter.php?a=Canadian</h4>
+        </div>
+        <div class="information">
+            <div class="info class">
+                <img src="https://www.themealdb.com/images/icons/image2.png" alt="">
+                <h2> Images</h2>
+            </div>
+            <h3 class="hh">Meal Thumbnail Images</h3>
+            <h3 class="hh">Add /preview to the end of the meal image URL</h3>
+            <h4 class="h">/images/media/meals/llcbn01574260722.jpg/preview</h4>
+        </div>
+        <div class="information">
+            <h3 class="hh">Ingredient Thumbnail Images</h3>
+            <h4 class="h">www.themealdb.com/images/ingredients/Lime.png</h4>
+            <h4 class="h">www.themealdb.com/images/ingredients/Lime-Small.png</h4>
+        </div>
+        <div class="information">
+            <img class="img-1" src="https://www.themealdb.com/images/ingredients/Lime-Small.png" alt="">
+            <img class="img-2" src="https://www.themealdb.com/images/ingredients/Lime.png" alt="">
+        </div>
+       
+    </section>
+    </div>
+    
+</body>
+</html>
